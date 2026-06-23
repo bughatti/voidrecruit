@@ -1,0 +1,20 @@
+## Interface: 120007
+## Title: VoidRecruit
+## Notes: Quality-first raid recruiting -- vetting, evaluation, and trial tracking. Companion to the Guild & Communities frame.
+## Author: bughatti
+## Version: 0.1.0
+## OptionalDeps: VoidScout
+## SavedVariables: VoidRecruitDB, VoidRecruitLog
+
+# Embedded VoidLib so users do not need a separate addon download.
+Libs\VoidLib\VoidLib.lua
+Libs\VoidLib\Secrets.lua
+Libs\VoidLib\Logger.lua
+
+Core.lua
+Perms.lua
+Util.lua
+Panel.lua
+Recruit.lua
+Vet.lua
+Contacts.lua
